@@ -35,7 +35,7 @@ export async function POST(
       ],
       mode: 'subscription',
       subscription_data: {
-        trial_from_plan: true,
+        //trial_from_plan: true,
         metadata
       },
       success_url: `${getURL()}/account`,
